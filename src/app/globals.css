@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.3s ease,
+              color 0.3s ease;
+}
+
+html.dark body {
+  background: #050816;
+  color: white;
+}
+
+html.light body {
+  background: #f8fafc;
+  color: #171717;
+}
+
+.glass {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0,0,0,0.06);
+
+}
+
+html.dark .glass {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+html.light .glass {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow:
+    0 8px 30px rgba(0,0,0,0.06);
+}
+
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    #60a5fa,
+    #a855f7
+  );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.section-divider {
+  position: relative;
+}
+
+.section-divider::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(90%, 1200px);
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(59,130,246,0.25),
+    transparent
+  );
+}
