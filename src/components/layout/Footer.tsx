@@ -53,7 +53,7 @@ export default function Footer() {
   
   <div className="space-y-2">
     <a
-      href="LinkedIn is Currenty Unavaialble"
+      href="https://www.linkedin.com/in/duowriters-undefined-799b29418?utm_source=share_via&utm_content=profile&utm_medium=member_android"
       className="block opacity-70 hover:opacity-100 transition"
     >
       LinkedIn
