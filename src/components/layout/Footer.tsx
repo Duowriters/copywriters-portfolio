@@ -53,7 +53,7 @@ export default function Footer() {
   
   <div className="space-y-2">
     <a
-      href="https://www.linkedin.com/in/duo-writers-799b29418?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+      href="https://www.linkedin.com/in/duo-writers-9334a7421?utm_source=share_via&utm_content=profile&utm_medium=member_android"
       className="block opacity-70 hover:opacity-100 transition"
     >
       LinkedIn
@@ -68,7 +68,7 @@ export default function Footer() {
     </a>
 
     <a
-      href="contact.duowriters@gmail.com"
+      href="mailto:contact.duowriters@gmail.com"
       className="flex items-center gap-2 opacity-70 hover:opacity-100 transition"
     >
       <Mail size={16} />
